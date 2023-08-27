@@ -14398,9 +14398,9 @@ html {
 .close-off-canvas:before,
 .close-off-canvas:after {
   position: absolute;
-  left: 15px;
+  left: 28px;
   content: " ";
-  height: 33px;
+  height: 24px;
   width: 2px;
   background-color: #fff;
 }
@@ -14428,9 +14428,9 @@ html {
   height: 2px;
   border-radius: 2px;
   background: white;
-  margin: 4px;
+  margin: 8px;
   transition: all 0.55s cubic-bezier(0.075, 0.82, 0.165, 1);
-  width: 24px;
+  width: 32px;
   cursor: pointer;
 }
 
