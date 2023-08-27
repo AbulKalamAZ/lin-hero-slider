@@ -14624,6 +14624,29 @@ html {
   cursor: pointer;
 }
 
+.blockquote {
+  position: relative;
+  font-style: italic;
+}
+
+.blockquote::before {
+  content: "“";
+  position: absolute;
+  top: -40px;
+  left: -20px;
+  font-size: 4rem;
+  opacity: 0.2;
+}
+
+.blockquote::after {
+  content: "”";
+  position: absolute;
+  bottom: -70px;
+  right: -2px;
+  font-size: 4rem;
+  opacity: 0.2;
+}
+
 .form-control:focus {
   box-shadow: none;
 }
@@ -14658,11 +14681,11 @@ html {
 }
 
 .testimonialSwiper {
-  height: 450px;
+  height: 545px;
 }
 
 .testimonials-card {
-  min-height: 400px;
+  min-height: 520px;
 }
 
 .stt-btn {
@@ -14711,6 +14734,12 @@ html {
     border-radius: 1rem;
     z-index: -99;
     opacity: 0.7;
+  }
+  .testimonialSwiper {
+    height: 500px;
+  }
+  .testimonials-card {
+    min-height: 450px;
   }
   .stt-btn {
     bottom: 100px;
