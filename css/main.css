@@ -14632,8 +14632,8 @@ html {
 .blockquote::before {
   content: "“";
   position: absolute;
-  top: -40px;
-  left: -20px;
+  top: -35px;
+  left: -25px;
   font-size: 4rem;
   opacity: 0.2;
 }
@@ -14641,8 +14641,8 @@ html {
 .blockquote::after {
   content: "”";
   position: absolute;
-  bottom: -70px;
-  right: -2px;
+  bottom: -60px;
+  right: -4px;
   font-size: 4rem;
   opacity: 0.2;
 }
@@ -14681,11 +14681,11 @@ html {
 }
 
 .testimonialSwiper {
-  height: 545px;
+  height: 475px;
 }
 
 .testimonials-card {
-  min-height: 520px;
+  min-height: 450px;
 }
 
 .stt-btn {
@@ -14736,10 +14736,10 @@ html {
     opacity: 0.7;
   }
   .testimonialSwiper {
-    height: 500px;
+    height: 450px;
   }
   .testimonials-card {
-    min-height: 450px;
+    min-height: 420px;
   }
   .stt-btn {
     bottom: 100px;
