@@ -14428,7 +14428,7 @@ html {
   height: 2px;
   border-radius: 2px;
   background: white;
-  margin: 8px;
+  margin: 4px;
   transition: all 0.55s cubic-bezier(0.075, 0.82, 0.165, 1);
   width: 24px;
   cursor: pointer;
